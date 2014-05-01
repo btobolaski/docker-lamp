@@ -1,4 +1,4 @@
-FROM btobolaski/base
+FROM phusion/baseimage:0.9.9
 
 RUN echo '#!/bin/sh' "\nexit 0" >  /usr/sbin/policy-rc.d
 
